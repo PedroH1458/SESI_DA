@@ -1,11 +1,11 @@
-body{
+body {
 
     margin: 0px;
 
 
 }
 
-.menu{
+.menu {
     height: 100px;
     background-color: black;
     display: flex;
@@ -16,7 +16,7 @@ body{
 
 }
 
-.menu img{
+.menu img {
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -30,14 +30,14 @@ body{
 
 }
 
-.campo-pesquisa{
+.campo-pesquisa {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 
 }
 
-.campo-pesquisa input{
+.campo-pesquisa input {
     height: 50px;
     width: 50%;
     border-radius: 50px;
@@ -45,3 +45,93 @@ body{
     padding-left: 30px;
 
 }
+
+
+.grupo-card {
+
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+
+    width: 219px;
+    height: 254px;
+    border-radius: 20px;
+    margin: 0px 50px 0px 50px;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+.card p{
+    color: white;
+    font-size: 40px;
+    margin: 200px 0px 0px 20px;
+
+
+
+}
+.banner{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+
+}
+
+
+
+.card-banner{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 950px;
+    height: 350px;
+    border-radius: 50px;
+
+}
+
+.card-esquerdo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 50px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+
+
+
+}
+
+.card-direito{
+
+
+background-image: url("img/Huh-Dog-meme-2.jpg");
+background-size: cover;
+background-position: center;
+width: 50%;
+height: 80%;
+border-radius: 50px 50px 50px 50px;
+
+
+
+
+
+}
+
+
+
+
+
